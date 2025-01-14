@@ -10,4 +10,7 @@ print(2 * 2)
 print(2 ** 3)
 print(5 // 2)
 print(5 % 2)
+print(5 // 2)
 
+print(math.sqrt(2))
+print(math.log(2))
