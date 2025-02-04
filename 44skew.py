@@ -1,5 +1,4 @@
-def skew(seq):
-    w = 5
+def skew(seq, w):
     tempseq = seq[0:w]
     print(tempseq)
     for i in range(len(seq) -w):
@@ -7,7 +6,7 @@ def skew(seq):
         tempseq = newseq
         print(tempseq)
 
-skew('ACGTACGTGGGGGACGTACGTCCCCC')
+skew('ACGTACGTGGGGGACGTACGTCCCCC', 3)
 
 
 
