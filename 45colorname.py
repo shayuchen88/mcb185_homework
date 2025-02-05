@@ -32,7 +32,7 @@ def main():
         if dtc(color, colornumber(colorcode[i])) < mindiff:
             mindiff = dtc(color, colornumber(colorcode[i]))
             idx = i
-    return (colorname[idx])
+    return ("Closest color is: " + colorname[idx])
 
 print(main())
 
