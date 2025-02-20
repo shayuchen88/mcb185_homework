@@ -1,6 +1,7 @@
 import sys
 import math
 
+# copy of 32stats.py
 number = []
 for numbers in sys.argv[1:]:
     temp = float(numbers)
@@ -37,8 +38,8 @@ else:
     print('The median is: ', s/2)
 
 
-# N50
 
+# N50 
 half = total/2
 count = 0
 for num in number:
