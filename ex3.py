@@ -10,11 +10,15 @@ for numbers in sys.argv[1:]:
 number.sort()
 
 print('The number of valuses is: ', number)
+print("Total", len(number), "values in this sequence")
 
 total = 0
 
+
 for i in number:
     total += i
+
+print("Sum: ", total)
 
 print('Maximum value: ', max(number))
 print('Minimum value: ', min(number))
