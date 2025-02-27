@@ -45,5 +45,7 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Attended class Tuesday
 	+ Attended class Thursday
 - Week 8
+	+ Attended class Thursday
+	+ Introduced my self to Orlado
 - Week 9
 - Week 10
