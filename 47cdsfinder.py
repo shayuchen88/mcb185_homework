@@ -85,7 +85,11 @@ def orf(proteinseq):
     return orfs
 
 for defline, seq in mcb185.read_fasta(sys.argv[1]):
-    rcseq = revcomp(seq)
-    pro = translation(rcseq)
-    print(defline)
-    print(orf(pro))
+    protein = translation(seq)
+    orf_ = orf(protein)
+    for i in range(len(orf_)):
+        if len(orf_[i]) >= 100:
+            print(">NC_000913.3-prot-"+str(i))
+            print(orf_[i][:20])
+
+
